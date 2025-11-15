@@ -1,0 +1,281 @@
+@import "tailwindcss";
+body {
+  background: linear-gradient(to bottom right, #2c8a4e, #55a168, #349c5a);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+nav{
+  box-shadow: 3px 3px 6px #3b703f;
+  height: 10dvh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+h1{
+  font-size: 3.5dvh;
+}
+h2{
+  text-align: center;
+  font-size: 3dvh;
+}
+h3 {
+  text-align: center;
+  font-size: 2.8dvh;
+  margin-top: 5dvh;
+}
+
+/* @media(min-width: 768px) {
+  .container{
+    width: 80dvh;
+    height: 50dvh;
+  }
+  .container2{
+    width: 80dvh;
+    height: 63dvh;
+  }
+  .container3{
+    height: 50dvh;
+    width: 80dvh;
+  }
+  h1{
+    font-size: 3dvw;
+  }
+  h2 {
+    margin-top: 2dvh;
+  }
+  .login input{
+    height: 4dvh;
+  }
+  .login button{
+    height: 4dvh;
+  }
+  .view{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .view button {
+    height: 5dvh;
+    width: 30dvh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #d3d0d0;
+  }
+  .report{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .report button {
+    height: 5dvh;
+    width: 30dvh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #d3d0d0;
+  }
+  .upload {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .upload form input {
+    height: 3dvh;
+    width: 30dvh;
+  }
+  .reg{
+    gap: 5px;
+  }
+} */
+/* @media(max-width: 767px){
+  .container{
+    width: 55dvh;
+    height: 70dvh;
+  }
+  .container2{
+    width: 55dvh;
+    height: 75dvh;
+  }
+  .container3{
+    height: 70dvh;
+    width: 55dvh;
+  }
+  nav{
+    padding: 5px;
+  } 
+  h1{
+    font-size: 3.8dvw;
+    text-align: center;
+  }
+  nav{
+    gap: 10px;
+  }
+  .login form{
+    gap: 30px;
+    margin-top: 4dvh;
+  }
+  .login input{
+    height: 4dvh;
+  }
+  .login button{
+    height: 4dvh;
+  }
+  h2{
+    margin-top: 4dvh;
+  }
+  p {
+    font-size: 4dvw;
+  }
+  .report{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+  .report button {
+    height: 5dvh;
+    width: 40dvh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #d3d0d0;
+  }
+  .view{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+  }
+  .view button {
+    height: 5dvh;
+    width: 40dvh;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #d3d0d0;
+  }
+  .upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .upload form{
+    padding: 10px;
+  }
+  .upload form input {
+    height: 3dvh;
+    width: 48dvh;
+  }
+  .upload div{
+    align-self: center;
+  }
+  .reg{
+    gap: 10px;
+  }
+  .reg p{
+    font-size: 4dvw;
+  }
+ 
+} */
+/* .container{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px #747474;
+  position: relative;
+}
+.container2{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px #747474;
+  position: relative;
+}
+.container3{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px #747474;
+  position: relative;
+} */
+/* nav img{
+  height: 5dvh;
+  width: 5dvh;
+} */
+/* .login form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px
+}
+.login button{
+  padding: 0;
+  height: 4dvh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #d3d0d0;
+}
+.reg{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.reg input{
+  padding: 2px;
+}
+.reg button{
+  padding: 0;
+  height: 4dvh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #d3d0d0;
+}
+.reg button:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+p{
+  text-align: center;
+}
+.report button:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 6px #747474;
+  color: green;
+}
+.view button:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 6px #747474;
+  color: green;
+} */
+/* h4{
+  text-align: center;
+}
+h4 img{
+  height: 2dvh;
+  width: 2dvh;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#submit{
+  padding: 0;
+  height: 4dvh;
+  width: 20dvh;
+  margin-top: 2dvh;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #d3d0d0;
+  position: relative;
+  align-items: center;
+}
+#submit:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+} */
