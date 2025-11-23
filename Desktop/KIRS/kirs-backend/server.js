@@ -517,7 +517,7 @@ const { CloudinaryStorage } = require('multer-storage-cloudinary');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const PORT = process.env.PORT || 5234;
+const PORT = process.env.PORT || 3306;
 
 // Configure CORS: restrict to FRONTEND_URL if set
 const FRONTEND_URL = process.env.FRONTEND_URL || '*';
